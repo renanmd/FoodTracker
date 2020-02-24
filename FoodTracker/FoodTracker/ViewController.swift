@@ -68,10 +68,5 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         imagePockerController.delegate = self
         present(imagePockerController, animated: true, completion: nil)
     }
-    @IBAction func setDefaultLAbelText(_ sender: UIButton) {
-        
-        mealNameLabel.text = "Default Text"
-    }
-    
 }
 
